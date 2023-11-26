@@ -2,6 +2,7 @@ function populateVoiceList() {
   var voices = window.speechSynthesis.getVoices();
   var select = document.getElementById('voices');
   select.innerHTML = '';
+
   voices.forEach(function(voice) {
     var option = document.createElement('option');
     option.value = voice.name;
