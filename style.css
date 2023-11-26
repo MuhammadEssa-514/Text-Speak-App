@@ -11,6 +11,19 @@
   h1{
     color: greenyellow;
   }
+  .hr1{
+    margin-bottom: 2px;
+    width: 64%;
+    background-color: red;
+  }
+  .hr2{
+    margin-bottom: 2px;
+
+  }
+  .hr3{
+    margin-bottom: 2px;
+
+  }
 
   main {
     background-color: black;
