@@ -9,19 +9,23 @@
     background-color: rgba(0, 0, 0, 0.828);
   }
   h1{
+    text-align: center;
     color: greenyellow;
   }
   .hr1{
-    margin-bottom: 2px;
-    width: 64%;
-    background-color: red;
+    width: 74%;
+    border: 1px solid green;
+    margin: 5px auto;
   }
   .hr2{
-    margin-bottom: 2px;
-
+    width: 100%;
+    border: 1px solid red;
+    margin: 5px auto;
   }
   .hr3{
-    margin-bottom: 2px;
+    width:50%;
+    border: 1px solid green;
+    margin: 5px auto;
 
   }
 
@@ -40,11 +44,11 @@
     outline: none;
     margin-bottom: 10px;
     border: 1px solid #c10d0d;
-    
     border-radius: 4px;
     resize: vertical;
     background-color: rgb(34, 33, 33);
     color: greenyellow;
+    box-shadow: inset 0 0 10px greenyellow;
   }
   
   label {
